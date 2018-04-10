@@ -13,6 +13,8 @@ body {
     padding-top: 0;
     padding-left: 17rem; } }
 
+.itemize c1 {color: #343a40}
+
 h1,
 h2,
 h3,
@@ -35,7 +37,21 @@ h6{
     font-size:0.9rem;
     color:#ffffff7e}
 
-h6 a:link{color:#ffffffe6}
+h6 a:link{color:#ffffff}
+
+A.class1 {color:rgb(49, 49, 187);}
+A.class1:link {text-decoration: none; rgb(49, 49, 187);}
+A.class1:visited {text-decoration: none; rgb(49, 49, 187);}
+A.class1:hover {text-decoration: underline; rgb(49, 49, 187);}
+A.class1:active {text-decoration: none; rgb(49, 49, 187);}
+
+
+A.class2 {color:rgb(255, 255, 255);}
+A.class2:link {text-decoration: none; rgb(255, 255, 255);}
+A.class2:visited {text-decoration: none; rgb(255, 255, 255);}
+A.class2:hover {text-decoration: underline; rgb(255, 255, 255);}
+A.class2:active {text-decoration: none; rgb(255, 255, 255);}
+
 
 .subheading {
   text-transform: uppercase;
