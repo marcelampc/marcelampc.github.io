@@ -50,7 +50,7 @@ h6{
 h6 a:link{color:#ffffff}
 
 A.class1 {color:rgb(102, 130, 223);}
-A.class1:link {text-decoration: none; rgb(49, 49, 187);}
+A.class1:link {text-decoration: none;rgb(49, 49, 187);}
 A.class1:visited {text-decoration: none; rgb(49, 49, 187);}
 A.class1:hover {text-decoration: underline; rgb(49, 49, 187);}
 A.class1:active {text-decoration: none; rgb(49, 49, 187);}
