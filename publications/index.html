@@ -33,7 +33,7 @@
       <a class="navbar-brand js-scroll-trigger" href="#page-top">
         <span class="d-block d-lg-none">Marcela Carvalho</span>
         <span class="d-none d-lg-block">
-          <img class="img-fluid img-profile rounded-circle mx-auto mb-2" src="../img/me.png" alt="">
+          <img class="img-fluid img-profile rounded-circle mx-auto mb-2" src="../img/mah3.JPG" alt="">
           <h3> Marcela Carvalho</h3>
         </span>
       </a>
@@ -48,8 +48,11 @@
           <li class="nav-item">
             <a class="nav-link js-scroll-trigger" href="../index.html">Home</a>
           </li>
+          <li class="nav-item active">
+            <a class="nav-link js-scroll-trigger" href="#publications">Publications</a>
+          </li>
           <li class="nav-item">
-            <a class="nav-link js-scroll-trigger" href="index.html">Internship</a>
+            <a class="nav-link js-scroll-trigger" href="../internship/index.html">Internship (filled)</a>
           </li>
         </ul>
       </div>
@@ -58,66 +61,12 @@
     <div class="container-fluid p-0">
 
 
-      <section class="resume-section p-3 p-lg-5 d-flex d-column" id="internship">
+      <section class="resume-section p-3 p-lg-5 d-flex d-column" id="publications">
         <div class="my-auto">
-          <h1 class="mb-0">Research
-            <span class="text-primary">Internship</span>
-            DTIS/ONERA
+          <h1 class="mb-0">Our
+            <span class="text-primary">Publications</span>
+            <!-- DTIS/ONERA -->
           </h1>
-          <h2>Title: <span class="text-primary">Deep neural networks for 3D point cloud prediction from a single image</span></h2>
-          <!-- <img src="img/internship_pointcloud.png" class="responsive" alt="RGB_to_PointCloud_Kitti"> -->
-
-
-        <p>3D estimation is crucial for scene understanding (e.g., autonomous driving) and accurate 3D reconstruction (e.g., 3D mapping, robotics). 3D from a single image has recently reached great performances thanks to deep neural networks. This might be a data acquisition paradigm shift, away from stereo vision and active laser scanners.</p>
-
-        <p>We, at ONERA/DTIS, developed D3-Net [Carvalho et al., 2018a-b], one of the top state-of-the-art approaches for depth estimation using a deep learning approach, awarded by a Best Paper Award at RFIAP2018, the French machine learning conference.</p>
-
-        <p>To go further on our research, the objective of the internship is to push this work to develop convolutional neural networks (CNNs) to directly estimate 3D point clouds, instead of depth rasters. Indeed, 3D point clouds are the standard in 3D data acquisition with laser and photogrammetry, and hence in 3D perception.</p>
-
-        <p>Especially, the intern will tackle two problems:</p>
-
-        <p><o1>
-            <li class="itemize">build convolutional network models for prediction of 3D real points. A particular care will be given to the design of the loss function, as the same geometry may admit different point cloud representations. Solutions based on Optimal Transport will be investigated [Fan et al., 2017]; and</li>
-            <li class="itemize">predict only accurate points to avoid further errors in reconstruction algorithms. Various approches will be compared, including simultaneous uncertainty prediction as in [Carvalho et al., 2018a], [Kendall & Gal, 2017], understanding of image hints which allow to estimate 3D: defocus, edges, scene statistics.</li>
-        </o1></p>
-
-        <p><o1><c2>Responsibilities</c2>
-        <li class="itemize">Design and development of CNNs for 3D point cloud prediction from a single image;</li>
-        <li class="itemize">Software development (Python) of CNNs using open libraries such as PyTorch or TensorFlow;
-        <li class="itemize">Application to robotics and computer graphics benchmarks and datasets such as ShapeNet, Stanford 2D-3D-S, or Semantic3D.</li>
-      </o1></p>
-
-      <p><o1><c2>Basic Qualifications</c2>
-        <li class="itemize"> Current enrollment in Master 2, 3rd year of Engineering School, or equivalent.</li>
-        <li class="itemize"> Good spoken and written English.</li>
-        <li class="itemize"> Experience in software development and debugging.</li>
-        <li class="itemize"> Ability to work autonomously (we'll still be there, don't worry).</li>
-        
-      </o1></p>
-      
-      <p><o1><c2>Preferred Qualification</c2>            
-        <li class="itemize"> Previous experience in Python.</li>
-        <li class="itemize"> Knowledge in Image Processing/Computer Vision.</li>
-          <li class="itemize"> Experience with PyTorch and/or TensorFlow, Git and LaTeX.</li>
-          <li class="itemize"> Academic research experience.</li>
-          <li class="itemize"> Research and software engineer experience demonstrated via an internship, work experience, or robotics/coding competitions.</li>
-        </o1></p>
-
-      <p><c3>Interest to join our team? Please send us an email with your CV and motivation letter to  <c4><a href="mailto:marcela.carvalho@onera.fr">marcela.carvalho@onera.fr</a></c4> (Marcela Carvalho), <c4><a href="mailto:bertrand.le_saux@onera.fr">bertrand.le_saux@onera.fr</a></c4> (Bertrand Le Saux) and <c4><a href="mailto:pauline.trouve@onera.fr">pauline.trouve@onera.fr</a></c4> (Pauline Trouvé-Peloux) </c3>.</p>
-
-      <p>You may find the original internship offer <a href=https://w3.onera.fr/stages/sites/w3.onera.fr.stages/files/dtis-2019-65.pdf>here</a> and other internships with our team may be found <a href=https://w3.onera.fr/stages/stages-dtis>here</a>. </p>
-
-      
-
-      <p><o1><c2>References</c2>  
-        <li class="itemize"> [Carvalho et al., 2018b] <a href=../material/docs/2018/regression_losses_icip_2018.pdf class="class1"> On Regression Losses for Deep Depth Estimation</a>, M. Carvalho, B. Le Saux, P. Trouvé-Peloux, F. Champagnat, A. Almansa IEEE Int. Conf. on Image Processing (ICIP’2018) Athens, Greece, October 2018.</li>
-        <li class="itemize"> [Carvalho et al., 2018a] <a href=https://arxiv.org/abs/1809.01567 class="class1"> Deep Depth from Defocus: how can defocus blur improve 3D estimation using dense neural networks?</a>, M. Carvalho, B. Le Saux, P. Trouvé-Peloux, F. Champagnat, A. Almansa ECCV / Workshop on 3D Reconstruction in the Wild, Munich, Germany, September 2018.</li>
-        <li class="itemize"> [Fan et al., 2017] A Point Set Generation Network for 3D Object Reconstruction from a Single Image, Haoqiang Fan, Hao Su, Leonidas J. Guibas CVPR 2017, Hawaii, USA, July 2017.</li>
-        <li class="itemize"> [Kendall & Gal, 2017] What uncertainties do we need in Bayesian deep learning for computer vision?, A. Kendall, Y. Gal, NIPS 2017, Long Beach, Cal., USA, December 2017.</li>
-      </o1></p>
-
-
-      </section>
 
         </div>
       </section> 
