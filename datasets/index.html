@@ -48,10 +48,10 @@
           <li class="nav-item">
             <a class="nav-link js-scroll-trigger" href="../index.html">Home</a>
           </li>
-          <li class="nav-item active">
-            <a class="nav-link js-scroll-trigger" href="#publications">Publications</a>
-          </li>
           <li class="nav-item">
+            <a class="nav-link js-scroll-trigger" href="../publications/index.html">Publications</a>
+          </li>
+          <li class="nav-item active">
             <a class="nav-link js-scroll-trigger" href="../datasets/index.html">Datasets</a>
           </li>
           <li class="nav-item">
@@ -66,10 +66,39 @@
 
       <section class="resume-section p-3 p-lg-5 d-flex d-column" id="publications">
         <div class="my-auto">
-          <h1 class="mb-0">Our
-            <span class="text-primary">Publications</span>
+          <h1 class="mb-0">Datasets
+            <!-- <span class="text-primary">Publications</span> -->
             <!-- DTIS/ONERA -->
           </h1>
+          <!-- <h2>Title: <span class="text-primary">Deep neural networks for 3D point cloud prediction from a single image</span></h2> -->
+          <div>
+          <h2><span class="text-primary">Depth from Defocus Dataset</span></h2>
+          <img src="../img/dfd_dataset.png" class="responsive" alt="DFD_Dataset_Illustration">
+        </div> <br> <br>
+          If you use this dataset, we would appreciate if you cite the following paper:<br>
+          <br>
+          <b>Deep Depth from Defocus: how can defocus blur improve 3D estimation using dense neural networks?</b>
+          <br>
+          Marcela Carvalho, Bertrand Le Saux, Pauline Trouvé-Peloux, Andrés Almansa, Frédéric Champagnat
+          <br>
+          [<a href=https://arxiv.org/abs/1809.01567 class="class1">arXiv</a>][<a href=https://github.com/marcelampc/d3net_depth_estimation class="class1">Code</a>][<bib onclick="show_bib('bibtex_deep_dfd');"class="class3">Bibtex</bib>]
+          <br>
+          
+          <div id="bibtex_deep_dfd" class="highlight-rouge" style="display: none;">
+              <small>
+              <pre><code><br>
+                @article{Carvalho2018eccv3drw,
+                title={Deep Depth from Defocus: how can defocus blur improve {3D} estimation using dense neural networks?},
+                author={Marcela Carvalho and Bertrand {Le Saux} and Pauline Trouv\'{e}-Peloux and Andr\'{e}s Almansa and Fr\'{e}d\'{e}ric Champagnat},
+                journal={3DRW ECCV Workshop},
+                year={2018},
+                publisher={IEEE}
+                }
+          </code></pre>
+          </small>
+          </div>
+          <br>
+          <a href=https://github.com/marcelampc/d3net_depth_estimation>Download Dataset</a>
 
         </div>
       </section> 
@@ -83,6 +112,17 @@
 
     <!-- Custom scripts for this template -->
     <script src="js/resume.min.js"></script>
+
+    <script>
+        function show_bib(id_name) {
+            var x = document.getElementById(id_name);
+            if (x.style.display === "none") {
+            x.style.display = "block";
+            } else {
+            x.style.display = "none";
+            }
+        }
+    </script>
 
   </body>
 

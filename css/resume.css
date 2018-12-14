@@ -49,6 +49,12 @@ h6{
 
 h6 a:link{color:#ffffff}
 
+bib {color:rgb(102, 130, 223);}
+bib:link {text-decoration: none;rgb(49, 49, 187);}
+bib:visited {text-decoration: none; rgb(49, 49, 187);}
+bib:hover {text-decoration: underline; rgb(49, 49, 187); cursor: pointer;}
+bib:active {text-decoration: none; rgb(49, 49, 187);}
+
 A.class1 {color:rgb(102, 130, 223);}
 A.class1:link {text-decoration: none;rgb(49, 49, 187);}
 A.class1:visited {text-decoration: none; rgb(49, 49, 187);}
@@ -63,9 +69,10 @@ A.class2:hover {text-decoration: underline; rgb(255, 255, 255);}
 A.class2:active {text-decoration: none; rgb(255, 255, 255);}
 
 .responsive {
-  width: 65%;
+  width: 100;
   height: auto;
   display: block;
+  vertical-align:bottom;
   /* margin-left: auto;
   margin-right: auto; */
 }
@@ -164,3 +171,32 @@ a {
     height:0.5px;
     margin: 10px auto;
     background: #ffffff7e}
+
+  div.highlighter-rouge, figure.highlight {
+    position: relative;
+    margin-bottom: 1em;
+    font-family: Monaco,Consolas,"Lucida Console",monospace;
+    font-size: .6875em;
+    line-height: 1.8;
+    border: 1px solid #f2f3f3;
+    border-radius: 4px;
+    background-color: #fafafa;
+    box-shadow: 0 1px 1px rgba(0,0,0,0.125);
+}
+
+.markdown-body pre {
+  background-color: #f6f8fa;
+  border-radius: 3px;
+  font-size: 85%;
+  line-height: 1.45;
+  overflow: auto;
+  padding: 16px;
+}
+
+.style{
+  width: 100%;
+  padding: 50px 0;
+  text-align: center;
+  background-color: lightblue;
+  margin-top: 20px;
+}
