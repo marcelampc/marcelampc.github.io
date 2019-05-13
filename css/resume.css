@@ -6,12 +6,18 @@
 body {
   font-family: 'Open Sans', serif;
   padding-top: 54px;
-  color: #868e96; }
+  color: #868e96; 
+  width: 80em;
+  max-width: 100%;
+  line-height: 1.5;
+  font-size: 16px;
+}
 
 @media (min-width: 992px) {
   body {
     padding-top: 0;
-    padding-left: 17rem; } }
+    padding-left: 17rem;
+    font-size: 16px; } }
 
 .itemize c1 {color: #6c6b74}
 
@@ -24,6 +30,20 @@ c3 {font-weight: bold;
 c4 {font-weight: bold;
   color: #6c6b74;
   text-decoration: underline;}
+
+article {
+  width: 48em;
+  /* margin: 0 auto; */
+  max-width: 100%;
+  line-height: 1.5;
+  font-size: 16px;
+}
+
+@media only screen and (max-width: 320px){
+  article{
+    font-size: 16px;
+  }
+}
 
 h1,
 h2,
